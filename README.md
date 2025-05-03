@@ -75,6 +75,26 @@ This week, the following milestones were achieved:
 - Build a basic tarot interpretation-to-cake matching function
 - Design and implement the order interface with dynamic input options
 
+## Weekly Progress – 05/02
+
+This week, the following milestones were achieved:
+
+1. **Home Page Update**
+   - Added a top navigation bar to improve layout and make navigation easier.
+2. **Card Drawing Feature**
+   - Users can now draw three tarot cards, each with a flip animation. Once three cards are selected, the images are displayed.
+3. **User Input & Recommendation Generation**
+   - Users can enter allergy information in a text box. The system generates a personalized prompt based on the selected cards and input content.
+
+**Next Week Goals 05/09:**
+- Further refine the recommendation logic
+- Polish UI/UX details based on user feedback
+- Begin implementing business-side inventory management
+
+## Client Communication – 05/02/2025
+
+On 5/2/2025, we communicated with the client. All current features have been approved and merged into the main branch.
+
 
 
 

@@ -136,7 +136,7 @@ const UserInputPage = () => {
             if (showFloating && selected.includes(cardIdx)) return null;
             return (
               <div key={i} style={getFanStyle(0, i)}>
-                <CardFlip flipped={flipped[cardIdx]} onClick={() => handleFlip(cardIdx)} number={cardNum} />
+                <CardFlip flipped={flipped[cardIdx]} onClick={() => handleFlip(cardIdx)} number={cardNum} data-testid="card-btn" />
               </div>
             );
           })}
@@ -147,7 +147,7 @@ const UserInputPage = () => {
             if (showFloating && selected.includes(cardIdx)) return null;
             return (
               <div key={cardIdx} style={getFanStyle(1, i)}>
-                <CardFlip flipped={flipped[cardIdx]} onClick={() => handleFlip(cardIdx)} number={cardNum}>
+                <CardFlip flipped={flipped[cardIdx]} onClick={() => handleFlip(cardIdx)} number={cardNum} data-testid="card-btn">
                   <div className="card-back navy" />
                 </CardFlip>
               </div>
@@ -174,7 +174,7 @@ const UserInputPage = () => {
                     justifyContent: 'center',
                   }}
                 >
-                  <CardFlip flipped={true} number={card.number}>
+                  <CardFlip flipped={true} number={card.number} data-testid="card-btn">
                     {card.navy && <div className="card-back navy" />}
                   </CardFlip>
                 </div>
