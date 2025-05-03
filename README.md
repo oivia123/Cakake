@@ -1,0 +1,81 @@
+# Custom Cake Matching Project
+
+## Project Scope
+The goal of this project is to match users with customized cake flavors based on their personal preferences or fortune-telling information. A preview image of the cake will be generated to help users place an order. The project will deliver three main interfaces: a user input interface, a cake generation interface, and an order information interface.
+
+## Target Users
+- Young consumers  
+- Flavor-conscious individuals
+
+## Key Features
+
+### For Business (To B)
+- View specific cake ingredient preferences submitted by users on the day  
+- Receive and manage order information in real-time  
+
+### For Consumers (To C)
+1. **Home Page**: Fortune-telling entry, product cards (image, name, price, ingredients), and filtering options (price range, main fruit, shape)  
+2. **User Input Interface**: Quiz-based fortune-telling form to collect preferences  
+3. **Loading Interface**: Displaying cake generation progress with a magical, tarot-inspired visual  
+4. **Product Interface**: Shows the generated cake along with visual and descriptive information  
+5. **Order Interface**: Allows users to adjust allergens, add special notes, and confirm their order  
+
+## Project Timeline
+- Week 1: Requirement gathering and initial user research  
+- Week 2: Wireframing and information architecture  
+- Week 3: Visual design and interaction flow  
+- Week 4: Implementation of core interfaces  
+- Week 5: Testing and iteration
+
+## Contact
+Shangming Zhuo
+Client
+Email: oiviauw@uw.edu
+Yunqing Zhao
+Developer
+Email: yzhao73@uw.edu
+
+
+
+##  Virtual Environment Setup
+
+To run the app locally, first create and activate a Python virtual environment:
+
+
+python3 -m venv venv
+source venv/bin/activate
+
+##  Project Structure
+cakeke/
+├── pages/                ← Multi-page support (customer/business interfaces)
+│   ├── customer.py       ← Customer-side page
+│   └── business.py       ← Business-side page
+├── assets/               ← Static resources (images, GIFs, logos)
+├── logic/                ← Core logic (recommendation algorithm, inventory handling)
+│   ├── rules.py          ← Logic for generating cake recommendations
+│   └── data.json         ← Simulated inventory and order data
+├── requirements.txt
+├── README.md
+└── venv/                 ← Python virtual environment folder
+
+
+## Weekly Progress –  04/18
+
+This week, the following milestones were achieved:
+
+-  Set up a working Python virtual environment with `venv` and recorded dependencies in `requirements.txt`
+-  Designed and confirmed the customer-side information architecture with client input
+-  Created initial folder structure (`cake/`) including subfolders for logic, assets, and docs
+-  Implemented the homepage layout in `customer_app.py`, featuring a themed welcome screen and state management for tarot flow
+-  Finalized lo-fi wireframes and documented visual direction (see `docs/lo-fi.pdf`)
+-  Set up project documentation in README with structure, setup guide, and progress tracking
+
+**Next Week Goals 04/25:**
+- Implement interactive tarot drawing logic
+- Build a basic tarot interpretation-to-cake matching function
+- Design and implement the order interface with dynamic input options
+
+
+
+
+
