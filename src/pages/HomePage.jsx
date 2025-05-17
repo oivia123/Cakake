@@ -3,6 +3,24 @@ import React from 'react';
 const HomePage = () => {
   return (
     <div className="w-screen h-screen flex items-center justify-center bg-black overflow-hidden">
+      {/* Top Bar */}
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: 60, background: 'transparent', zIndex: 100, display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
+        <button
+          style={{
+            marginRight: 32,
+            padding: '8px 20px',
+            borderRadius: 20,
+            background: 'rgba(255,228,225,0.85)',
+            color: '#8B4513',
+            border: 'none',
+            fontWeight: 600,
+            fontSize: 16,
+            cursor: 'pointer'
+          }}
+        >
+          Shopping Cart
+        </button>
+      </div>
       <div
         className="relative flex items-center justify-center"
         style={{

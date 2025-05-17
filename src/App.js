@@ -5,6 +5,7 @@ import UserInputPage from './pages/UserInputPage';
 import LoadingPage from './pages/LoadingPage';
 import ResultPage from './pages/ResultPage';
 import InventoryPage from './pages/InventoryPage';
+import ShoppingCartPage from './pages/ShoppingCartPage';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/loading" element={<LoadingPage />} />
         <Route path="/result" element={<ResultPage />} />
         <Route path="/inventory" element={<InventoryPage />} />
+        <Route path="/cart" element={<ShoppingCartPage />} />
       </Routes>
     </Router>
   );

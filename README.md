@@ -95,6 +95,22 @@ This week, the following milestones were achieved:
 
 On 5/2/2025, we communicated with the client. All current features have been approved and merged into the main branch.
 
+## Weekly Progress – 05/16
+
+**Client Communication:**
+- Held a meeting with the client to present the current version of the website and shared the source code.
+- Received feedback from the client regarding several issues:
+  - Allergen information was not correctly processed by the LLM model (now fixed).
+  - The LLM model displayed the prompt text along with the result (currently being fixed).
+  - Recommended products were not directly added to the cart upon confirmation (currently being fixed).
+  - The UI for both the cart and the recommendation page is incomplete (currently being improved).
+
+**Development Progress:**
+- Fixed the issue where allergen information was not correctly processed by the LLM model.
+- Started working on hiding the prompt text in the LLM model's output.
+- Began implementing the feature to allow recommended products to be directly added to the cart upon confirmation.
+- Continued improving the UI for the cart and recommendation pages based on client feedback.
+
 
 
 
