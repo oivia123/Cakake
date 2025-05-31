@@ -9,10 +9,6 @@ The goal of this project is to match users with customized cake flavors based on
 
 ## Key Features
 
-### For Business (To B)
-- View specific cake ingredient preferences submitted by users on the day  
-- Receive and manage order information in real-time  
-
 ### For Consumers (To C)
 1. **Home Page**: Fortune-telling entry, product cards (image, name, price, ingredients), and filtering options (price range, main fruit, shape)  
 2. **User Input Interface**: Quiz-based fortune-telling form to collect preferences  
@@ -47,9 +43,8 @@ source venv/bin/activate
 
 ##  Project Structure
 cakeke/
-├── pages/                ← Multi-page support (customer/business interfaces)
+├── pages/                ← Multi-page support (customer interfaces)
 │   ├── customer.py       ← Customer-side page
-│   └── business.py       ← Business-side page
 ├── assets/               ← Static resources (images, GIFs, logos)
 ├── logic/                ← Core logic (recommendation algorithm, inventory handling)
 │   ├── rules.py          ← Logic for generating cake recommendations
@@ -89,13 +84,27 @@ This week, the following milestones were achieved:
 **Next Week Goals 05/09:**
 - Further refine the recommendation logic
 - Polish UI/UX details based on user feedback
-- Begin implementing business-side inventory management
 
-## Client Communication – 05/02/2025
+## Client Communication – 05/02
 
 On 5/2/2025, we communicated with the client. All current features have been approved and merged into the main branch.
 
+## Weekly Progress – 05/16
 
+**Client Communication:**
+- Held a meeting with the client to present the current version of the website and shared the source code.
+- Received feedback from the client regarding several issues:
+  - Allergen information was not correctly processed by the LLM model (now fixed).
+  - The LLM model displayed the prompt text along with the result (currently being fixed).
+  - Recommended products were not directly added to the cart upon confirmation (currently being fixed).
+  - The UI for both the cart and the recommendation page is incomplete (currently being improved).
 
+**Development Progress:**
+- Fixed the issue where allergen information was not correctly processed by the LLM model.
+- Started working on hiding the prompt text in the LLM model's output.
+- Began implementing the feature to allow recommended products to be directly added to the cart upon confirmation.
+- Continued improving the UI for the cart and recommendation pages based on client feedback.
 
+## Client Communication – 05/30
+On 5/30, I communicated with the client. All current features have been approved and merged into the main branch.
 
